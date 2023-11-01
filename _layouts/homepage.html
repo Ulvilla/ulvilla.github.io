@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ulvilla</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="" />
+    <link rel="icon" href="static/favicon.png">
+    <style>
+        body {
+            background-color: #498EF2;
+        }
+        .center-fit {
+            max-width: 100%;
+            margin: 0;
+        }
+        .main-container {
+            max-width: 945px;
+            margin: auto;
+        }
+        .content {
+            font-size: 16pt;
+            font-family: Trebuchet MS;
+            color: white;
+        }
+
+        .actors {
+            text-align: center;
+        }
+    </style
+  
+</head>
+<body>
+    <div class="main-container">
+        <a href="https://kultar.no/billetter/ulvilla-teater/">
+            <img class="center-fit" src="static/image.jpg"/>
+        </a>
+        <div class="content">
+        {{ content }}
+        <div class="actors">
+            <p>
+                <b>Med</b>: {{ page.actors | join: " - " }}
+            </p>
+            <p>
+                <b>Møllemesterens musikker</b>: {{ page.band | join: " - " }}
+            </p>
+            <p>
+                <b>Manus og regi</b>: {{ page.director | join: " - " }}
+            </p>
+            <p>
+                <b>Musikk</b>: {{ page.music | join: " - " }}
+            </p>
+            <p>
+                <a href="https://kultar.no/billetter/ulvilla-teater/">
+                    <b>Billetter hos kultar.no</b>: kr 150/kr 250
+                </a>
+            </p>
+        </div>
+        </div>
+    </div>
+</body>
+</html>
