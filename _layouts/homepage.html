@@ -15,7 +15,7 @@
             margin: 0;
         }
         .main-container {
-            max-width: 945px;
+            max-width: 1200px;
             margin: auto;
         }
         .content {
@@ -24,9 +24,16 @@
             color: white;
         }
 
-        .actors {
+        .centered {
             text-align: center;
+            max-width: 80%;
+            margin: auto;
         }
+        a.ticket-link {
+            font-size: 24pt;
+
+        }
+        
     </style
   
 </head>
@@ -36,26 +43,26 @@
             <img class="center-fit" src="static/image.jpg"/>
         </a>
         <div class="content">
-        {{ content }}
-        <div class="actors">
             <p>
-                <b>Med</b>: {{ page.actors | join: " - " }}
+                {{ content }}
             </p>
-            <p>
-                <b>Møllemesterens musikker</b>: {{ page.band | join: " - " }}
-            </p>
-            <p>
-                <b>Manus og regi</b>: {{ page.director | join: " - " }}
-            </p>
-            <p>
-                <b>Musikk</b>: {{ page.music | join: " - " }}
-            </p>
-            <p>
-                <a href="https://kultar.no/billetter/ulvilla-teater/">
+            <div class="centered">
+                <p>
+                    <b>Med</b>: {{ page.actors | join: " - " }}
+                </p>
+                <p>
+                    <b>Møllemesterens musiker</b>: {{ page.band | join: " - " }}
+                </p>
+                <p>
+                    <b>Manus og regi</b>: {{ page.director | join: " - " }}
+                </p>
+                <p>
+                    <b>Musikk</b>: {{ page.music | join: " - " }}
+                </p>
+                <a class="ticket-link" href="https://kultar.no/billetter/ulvilla-teater/">
                     <b>Billetter hos kultar.no</b>: kr 150/kr 250
                 </a>
-            </p>
-        </div>
+            </div>
         </div>
     </div>
 </body>
