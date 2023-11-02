@@ -48,7 +48,17 @@
             </p>
             <div class="centered">
                 <p>
-                    <b>Med</b>: {{ page.actors | join: " - " }}
+                    {% for actor in page.actors %}
+                        {% assign remainer = forloop.index0 | modulo: 5 %}
+                        {% if forloop.index0 == 0 %}
+                            <b>Med:</b> {{ actor }}
+                        {% elsif remainer == 0 %}
+                            <br/>
+                            {{ actor }}
+                        {% else %}
+                            - {{ actor }}
+                        {% endif %}
+                    {% endfor %}
                 </p>
                 <p>
                     <b>Møllemesterens musiker</b>: {{ page.band | join: " - " }}
