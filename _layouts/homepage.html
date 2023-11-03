@@ -1,79 +1,40 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <title>Ulvilla</title>
+    <title>{{ page.title }}</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="" />
-    <link rel="icon" href="static/favicon.png">
-    <style>
-        body {
-            background-color: #498EF2;
-        }
-        .center-fit {
-            max-width: 100%;
-            margin: 0;
-        }
-        .main-container {
-            max-width: 1200px;
-            margin: auto;
-        }
-        .content {
-            font-size: 16pt;
-            font-family: Trebuchet MS;
-            color: white;
-        }
-
-        .centered {
-            text-align: center;
-            max-width: 80%;
-            margin: auto;
-        }
-        a.ticket-link {
-            font-size: 24pt;
-
-        }
-        
-    </style
-  
-</head>
-<body>
+    <link rel="icon" href="assets/images/favicon.png" />
+    <link rel="stylesheet" href="assets/css/styles.css" />
+    {% seo %}
+  </head>
+  <body>
     <div class="main-container">
-        <a href="https://kultar.no/billetter/ulvilla-teater/">
-            <img class="center-fit" src="static/image.jpg"/>
-        </a>
-        <div class="content">
-            <p>
-                {{ content }}
-            </p>
-            <div class="centered">
-                <p>
-                    {% for actor in page.actors %}
-                        {% assign remainer = forloop.index0 | modulo: 5 %}
-                        {% if forloop.index0 == 0 %}
-                            <b>Med:</b> {{ actor }}
-                        {% elsif remainer == 0 %}
-                            <br/>
-                            {{ actor }}
-                        {% else %}
-                            - {{ actor }}
-                        {% endif %}
-                    {% endfor %}
-                </p>
-                <p>
-                    <b>Møllemesterens musiker</b>: {{ page.band | join: " - " }}
-                </p>
-                <p>
-                    <b>Manus og regi</b>: {{ page.director | join: " - " }}
-                </p>
-                <p>
-                    <b>Musikk</b>: {{ page.music | join: " - " }}
-                </p>
-                <a class="ticket-link" href="https://kultar.no/billetter/ulvilla-teater/">
-                    <b>Billetter hos kultar.no</b>: kr 150/kr 250
-                </a>
-            </div>
+      <a href="https://kultar.no/billetter/ulvilla-teater/">
+        <img class="center-fit" src="{{page.image}}" />
+      </a>
+      <div class="content">
+        <p>{{ content }}</p>
+        <div class="centered">
+          <p>
+            {% for actor in page.actors %} {% assign remainer = forloop.index0 |
+            modulo: 5 %} {% if forloop.index0 == 0 %}
+            <b>Med:</b> {{ actor }} {% elsif remainer == 0 %}
+            <br />
+            {{ actor }} {% else %} - {{ actor }} {% endif %} {% endfor %}
+          </p>
+          <p><b>Møllemesterens musiker</b>: {{ page.band | join: " - " }}</p>
+          <p><b>Manus og regi</b>: {{ page.director | join: " - " }}</p>
+          <p><b>Musikk</b>: {{ page.music | join: " - " }}</p>
+          <a
+            class="ticket-link"
+            href="https://kultar.no/billetter/ulvilla-teater/"
+          >
+            <b>Billetter hos kultar.no</b>: kr 150/kr 250
+          </a>
         </div>
+      </div>
     </div>
-</body>
+  </body>
 </html>

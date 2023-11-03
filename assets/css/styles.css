@@ -1,0 +1,25 @@
+body {
+  background-color: #498ef2;
+}
+.center-fit {
+  max-width: 100%;
+  margin: 0;
+}
+.main-container {
+  max-width: 1200px;
+  margin: auto;
+}
+.content {
+  font-size: 16pt;
+  font-family: Trebuchet MS;
+  color: white;
+}
+
+.centered {
+  text-align: center;
+  max-width: 80%;
+  margin: auto;
+}
+a.ticket-link {
+  font-size: 24pt;
+}

@@ -1,5 +1,9 @@
 ---
+title: Ulvilla Teater | Møllemester Iversen og englene
+description: Møllemester Iversen og englene er førjulsvinterens varmeste og mest forunderlige familieforestilling som spilles i Ulvilla forsamlingshus i Verdal fra 25.november – med advent-snop og gløgg og teatrets magi å «ta med hjem» – mens vi venter på underet i Betlehem.
+locale: nb_NO
 layout: homepage
+image: static/image.jpg
 actors:
   - Lavrans Haga
   - Oda Eggen
