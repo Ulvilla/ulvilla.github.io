@@ -1,30 +1,35 @@
 ---
-title: Ulvilla Teater | Møllemester Iversen og englene
+title: Ulvilla Teater | Æ vil itj fløtt på Øra!
 description: Møllemester Iversen og englene er førjulsvinterens varmeste og mest forunderlige familieforestilling som spilles i Ulvilla forsamlingshus i Verdal fra 25.november – med advent-snop og gløgg og teatrets magi å «ta med hjem» – mens vi venter på underet i Betlehem.
 locale: nb_NO
-layout: homepage
-image: static/image.jpg
+layout: ora
+ulvilla_logo: assets/images/ora/ulvilla_logo.png
+logo: assets/images/ora/logo.png
+content_title: En brennaktuell bitende satire av Arnulf Haga
+ticket_link: https://www.kultar.no
+ticket_prices: 375kr / 300kr
+dates:
+    - 13.3.2024
+    - 14.3.2024
+    - 15.3.2024
+    - 16.3.2024
+    - 17.3.2024
+    - 20.3.2024
+    - 21.3.2024
+    - 22.3.2024
+    - 23.3.2024
 actors:
-  - Lavrans Haga
-  - Oda Eggen
-  - Oskar Haugan Sellæg
-  - Ingeborg Bratli
-  - Tomine Musum
-  - Oline Haugan Sellæg
-  - Anje Gomo Storholmen
-  - Anne Lise Johansen
 band:
-  - Ola Wist Holmen
 director:
-  - Arnulf Haga
 music:
-  - Asgeir Skrove
 ---
 
-Det nærmer seg advent og da går ungene til Møllemester Iversen for å høre hans vidunderlige historier om engler og dompaper. Denne rare, artige møllemesteren som forteller de mest fantastiske ting – er det sant eller bare skrøner?
+En revy-musikal om  den utrolige historien til pensjonistene, Liv og Martin Svingen og deres desperate flukt fra barn og barnebarn for å unngå tvangsflytting fra småbruket Svingen, søndre, østre, gårdsnr. 2, bruksnr 9, Malsådalen 7660 Vuku, til 5te etg. i Høgheimen 76, Vektargata, 7650 Verdal.
 
-Møllemester Iversen og englene er førjulsvinterens varmeste og mest forunderlige familieforestilling som spilles i Ulvilla forsamlingshus i Verdal fra 25.november – med advent-snop og gløgg og teatrets magi å «ta med hjem» – mens vi venter på underet i Betlehem.
+Et drama i uante akter om frihetens vilkår i naturskjønne Verdal.
 
-Møllemesteren inspirerer fantasien og gleden ved å fortelle; skrøne eller sannhet, opplevd eller innbilt. Fra et univers mellom faktum og fiksjon,- befolket av engler han tror på, og dompaper han snakker med,- formidles møllemesterens opplevelser og anskuelser; til unge venner på scenen, og videre til publikum.
+Om flukten fra friheten i sin barndoms grønne dal i Malsåsvingen.
 
-Fortellingens form er latin-amerikansk magisk realisme påkledd topplue og skjerf, og sendt til skogs i Trøndelag. Med musikk til. Ærendet i advent er å spre humanisme og toleranse for tro i alle retninger; og nestekjærlighet for både folk og dyr; med møllemesterens vitnesbyrd om at det kan oppleves mye rart mellom himmel og jord for alle som våger å lytte og se. Og å tro.
+Om ferden fra paradis på fraflyttingens stier, til den lovede lykke i sentrum.
+
+En historie så utrolig at den umulig kan være løgn og forbandet dikt - om ur-verdalingens evne til å motsette seg frivillig utvandring fra en levende vømmøldal, til urbanisert lagring i betong-getto bak avstengt glassveranda.

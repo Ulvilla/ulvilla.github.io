@@ -1,0 +1,81 @@
+body {
+  background-image: url("/assets/images/ora/background.jpg");
+  background-color: #f1dec0;
+}
+
+.main-container {
+  max-width: 1920px;
+  margin: auto;
+}
+
+.header {
+  margin: auto;
+  max-width: 1920px;
+}
+
+.header-image {
+  display: block;
+  margin: auto;
+}
+
+.grid-container {
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-areas: 
+    "title title title title"
+    "main main main right"
+    "footer footer footer footer";
+  gap: 15px;
+}
+
+.main {
+  grid-area: main;
+  font-size: 24pt;
+  font-family: Garamond;
+  color: black;
+}
+.right {
+  color: black;
+  grid-area: right;
+  text-align: center;
+  font-size: 18pt;
+  font-family: Trebuchet MS;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.right li {
+    list-style-type: none;
+}
+.right p, ul {
+    padding: 0;
+    margin: 0px;
+    margin-bottom: 15px;
+}
+
+.title {
+  grid-area: title;
+  font-size: 32pt;
+  font-weight: bold;
+  font-family: Garamond;
+  color: #7d7d7d;
+  text-align: center;
+}
+
+.footer {
+  grid-area: footer;
+  text-align: center;
+  margin: auto;
+  font-size: 24pt;
+  font-family: Garamond;
+  color: black;
+}
+
+a.ticket-link {
+  font-size: 24pt;
+}
+
+.ticket-link img {
+  max-width: 80%;
+
+}
