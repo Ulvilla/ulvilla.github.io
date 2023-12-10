@@ -28,17 +28,18 @@ director:
 music:
 ---
 
-En revy-musikal om den utrolige historien til pensjonistene, Liv og Martin
+En surrealistisk farse om den utrolige historien til pensjonistene Liv og Martin
 Svingen og deres desperate flukt fra barn og barnebarn for å unngå
-tvangsflytting fra småbruket Svingen, søndre, østre, gårdsnr. 2, bruksnr 9,
-Malsådalen 7660 Vuku, til 5te etg. i Høgheimen 76, Vektargata, 7650 Verdal.
+tvangsflytting fra småbruket Malsåvingen, søndre, østre, gårdsnr. 2, bruksnr 9,
+Malsådalen 7660 Vuku, til 5te etg. i Høgheimen 76, Vektargata 7650 Verdal.
 
-Et drama i uante akter om frihetens vilkår i naturskjønne Verdal.
+Et drama i uante akter.
 
-Om flukten fra friheten i sin barndoms grønne dal i Malsåsvingen.
+Om frihetens vilkår i naturskjønne Verdal. Om flukten fra friheten i sin
+barndoms grønne dal i Malsåsvingen. Om ferden fra paradis på fraflyttingens
+stier, til den lovede lykke i sentrum.
 
-Om ferden fra paradis på fraflyttingens stier, til den lovede lykke i sentrum.
-
-En historie så utrolig at den umulig kan være løgn og forbandet dikt - om
-ur-verdalingens evne til å motsette seg frivillig utvandring fra en levende
-vømmøldal, til urbanisert lagring i betong-getto bak avstengt glassveranda.
+En historie så utrolig at den umulig kan være annet enn et ekko av løgn, sannhet
+og dårlig hukommelse; om ur-verdalingens evne til å motsette seg frivillig
+utvandring fra et levende dalisliv, til urbanisert lagring i betong-getto bak
+avstengt glassveranda.
