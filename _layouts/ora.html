@@ -15,62 +15,55 @@
   </head>
   <body>
     <div class="main-container">
-        <div class="header">
+      <div class="grid-container">
+        <div class="title">
+          <div class="header">
             <img class="header-image" src="{{page.ulvilla_logo}}" />
             <img class="header-image" src="{{page.logo}}" />
-        </div>
-        <div class="grid-container">
-            <div class="title">
-                    {{ page.content_title }}
-            </div>
-            <div class="main">
-                {{ content }}
-            </div>
-            <div class="right">
-                <p>
-                    <b>Forestillinger:</b>
-                </p>
-                <ul>
-                {% for date in page.dates %}
-                <li>
-                    {{ date }}
-                    {% if forloop.index0 == 0 %} <b>Urpremiere!</b> {% endif %}
-                </li>
-                {% endfor %}
-                </ul>
-
-                {% if page.ticket_link %}
-                  <a
-                    class="ticket-link"
-                    href="{{ page.ticket_link}}"
-                  >
-                      <img src="https://kultar.no/wp-content/themes/kultar/images/kultar-logo.png"/>
-                  </a>
-                {% endif %}
-                {% if page.ticket_prices %}
-                    <p>{{ page.ticket_prices }}</p>
-                {% endif %}
-            </div>
-            <div class="footer">
-              <p>
-                {% for actor in page.actors %} {% assign remainer = forloop.index0 |
-                modulo: 5 %} {% if forloop.index0 == 0 %}
-                <b>Med:</b> {{ actor }} {% elsif remainer == 0 %}
-                <br />
-                {{ actor }} {% else %} - {{ actor }} {% endif %} {% endfor %}
-              </p>
-                {% if page.band %}
-              <p><b>Musiker</b>: {{ page.band | join: " - " }}</p>
-                {% endif %}
-                {% if page.director %}
-              <p><b>Manus og regi</b>: {{ page.director | join: " - " }}</p>
-                {% endif %}
-                {% if page.music %}
-              <p><b>Musikk</b>: {{ page.music | join: " - " }}</p>
-                {% endif %}
-
-            </div>
           </div>
+          {{ page.content_title }}
         </div>
+        <div class="main">{{ content }}</div>
+        <div class="right">
+          <p>
+            <b>Forestillinger:</b>
+          </p>
+          <ul>
+            {% for date in page.dates %}
+            <li>
+              {{ date }} {% if forloop.index0 == 0 %} <b>Urpremiere!</b> {%
+              endif %}
+            </li>
+            {% endfor %}
+          </ul>
+
+          {% if page.ticket_link %}
+          <a class="ticket-link" href="{{ page.ticket_link}}">
+            <img
+              src="https://kultar.no/wp-content/themes/kultar/images/kultar-logo.png"
+            />
+          </a>
+          {% endif %} {% if page.ticket_prices %}
+          <p>{{ page.ticket_prices }}</p>
+          {% endif %}
+        </div>
+        <div class="footer">
+          <p>
+            {% for actor in page.actors %} {% assign remainer = forloop.index0 |
+            modulo: 5 %} {% if forloop.index0 == 0 %}
+            <b>Med:</b> {{ actor }} {% elsif remainer == 0 %}
+            <br />
+            {{ actor }} {% else %} - {{ actor }} {% endif %} {% endfor %}
+          </p>
+          {% if page.band %}
+          <p><b>Musiker</b>: {{ page.band | join: " - " }}</p>
+          {% endif %} {% if page.director %}
+          <p><b>Manus og regi</b>: {{ page.director | join: " - " }}</p>
+          {% endif %} {% if page.music %}
+          <p><b>Musikk</b>: {{ page.music | join: " - " }}</p>
+          {% endif %}
+        </div>
+      </div>
+    </div>
   </body>
 </html>

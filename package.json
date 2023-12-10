@@ -1,0 +1,16 @@
+{
+  "name": "ulvilla.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prettier:check": "prettier --check \"**/*.{js,jsx,ts,tsx,css,scss,json,yml,yaml,md}\"",
+    "prettier:fix": "prettier --write \"**/*.{js,jsx,ts,tsx,css,scss,json,yml,yaml,md}\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prettier": "^3.1.1"
+  }
+}
