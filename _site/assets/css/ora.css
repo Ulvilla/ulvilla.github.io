@@ -8,17 +8,11 @@ body {
 }
 
 .header {
-    max-width: 1920px;
     font-size: 32pt;
     font-weight: bold;
     font-family: Garamond;
     color: #7d7d7d;
     text-align: center;
-}
-
-.header img {
-    margin: auto;
-    max-width: inherit;
 }
 
 .content {
