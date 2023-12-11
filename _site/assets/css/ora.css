@@ -4,7 +4,7 @@ body {
 }
 
 .bottom-spacing {
-    margin-bottom: 32px;
+    margin-bottom: 24px;
 }
 
 .header {
@@ -49,7 +49,9 @@ body {
 }
 
 a.ticket-link {
-    font-size: 24pt;
+    font-size: 18pt;
+    text-decoration: none;
+    color: white;
 }
 
 .ticket-link img {

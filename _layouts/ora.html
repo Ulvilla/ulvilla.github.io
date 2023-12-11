@@ -37,43 +37,43 @@
                 <div class="content col-12 col-lg-7 bottom-spacing">
                     {{ content }}
                 </div>
-                <div class="right col-12 col-lg-3 text-center bottom-spacing">
-                    <div class="row">
-                        <div class="col-6 col-lg-12">
-                            <p>
-                                <b>Forestillinger:</b>
-                            </p>
-                            <ul>
-                                {% for date in page.dates %}
-                                <li>
-                                    {{ date }} {% if forloop.index0 == 0 %}
-                                    <b>Urpremiere!</b> {% endif %}
-                                </li>
-                                {% endfor %}
-                            </ul>
-                            <p><b>kl. 19:00</b></p>
-                            <p><b>Ulvilla forsamlingshus</b></p>
+                <div class="right col-6 col-lg-3 text-center bottom-spacing">
+                    <p>
+                        <b>Forestillinger:</b>
+                    </p>
+                    <ul>
+                        {% for date in page.dates %}
+                        <li>
+                            {{ date }} {% if forloop.index0 == 0 %}
+                            <b>Urpremiere!</b> {% endif %}
+                        </li>
+                        {% endfor %}
+                    </ul>
+                    <p><b>kl. 19:00</b></p>
+                    <p><b>Ulvilla forsamlingshus</b></p>
+                </div>
+                <div class="right col-6 col-lg-6">
+                    {% if page.ticket_link %}
+                    <div class="row align-items-center justify-content-center">
+                        {% if page.ticket_prices %}
+                        <div
+                            class="col-8 col-lg-5 text-center btn btn-success align-items-center"
+                        >
+                            <a class="ticket-link" href="{{ page.ticket_link}}">
+                                <b>Billetter:</b><br />
+                                {{ page.ticket_prices }}
+                            </a>
                         </div>
-                        <div class="col-6 col-lg-12">
-                            {% if page.ticket_link %}
-                            <p>
-                                <b>Billetter:</b>
-                            </p>
-                            <div>
-                                <a
-                                    class="ticket-link"
-                                    href="{{ page.ticket_link}}"
-                                >
-                                    <img
-                                        src="https://kultar.no/wp-content/themes/kultar/images/kultar-logo.png"
-                                    />
-                                </a>
-                            </div>
-                            {% endif %} {% if page.ticket_prices %}
-                            <p>{{ page.ticket_prices }}</p>
-                            {% endif %}
+                        {% endif %}
+                        <div class="col-12 col-lg-6 text-center">
+                            <a class="ticket-link" href="{{ page.ticket_link}}">
+                                <img
+                                    src="https://kultar.no/wp-content/themes/kultar/images/kultar-logo.png"
+                                />
+                            </a>
                         </div>
                     </div>
+                    {% endif %}
                 </div>
             </div>
             <div class="footer">
