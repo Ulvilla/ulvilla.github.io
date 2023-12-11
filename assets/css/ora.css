@@ -11,7 +11,7 @@ body {
 }
 
 .header {
-    font-size: 32pt;
+    font-size: 28pt;
     font-weight: bold;
     font-family: Garamond;
     color: #7d7d7d;
@@ -19,7 +19,7 @@ body {
 }
 
 .content {
-    font-size: 24pt;
+    font-size: 18pt;
     font-family: Garamond;
     color: black;
 }

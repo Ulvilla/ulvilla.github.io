@@ -10,7 +10,7 @@ layout: ora
 ulvilla_logo: assets/images/ora/ulvilla_logo.png
 logo: assets/images/ora/logo.png
 content_title: En brennaktuell bitende satire av Arnulf Haga
-ticket_link: https://www.kultar.no
+ticket_link: https://ebillett.no/events?search=%C3%A6+vil+itj+fl%C3%B8tt+p%C3%A5+%C3%B8ra&fbclid=IwAR2wx_VBNjtEpZkqW5yHrbLtPBNobaAs5-htqvdkukx5Piik5wXdGuQIrPE
 ticket_prices: 375kr / 300kr
 dates:
   - 13.3.2024
@@ -28,8 +28,8 @@ director:
 music:
 ---
 
-En surrealistisk farse om den utrolige historien til pensjonistene Liv og Martin
-Svingen og deres desperate flukt fra barn og barnebarn for å unngå
+En surrealistisk _farse_ om den utrolige historien til pensjonistene Liv og
+Martin Svingen og deres desperate flukt fra barn og barnebarn for å unngå
 tvangsflytting fra småbruket Malsåvingen, søndre, østre, gårdsnr. 2, bruksnr 9,
 Malsådalen 7660 Vuku, til 5te etg. i Høgheimen 76, Vektargata 7650 Verdal.
 
@@ -39,7 +39,7 @@ Om frihetens vilkår i naturskjønne Verdal. Om flukten fra friheten i sin
 barndoms grønne dal i Malsåsvingen. Om ferden fra paradis på fraflyttingens
 stier, til den lovede lykke i sentrum.
 
-En historie så utrolig at den umulig kan være annet enn et ekko av løgn, sannhet
-og dårlig hukommelse; om ur-verdalingens evne til å motsette seg frivillig
-utvandring fra et levende dalisliv, til urbanisert lagring i betong-getto bak
-avstengt glassveranda.
+En historie så utrolig at den umulig kan være annet enn et **ekko** av _løgn,
+sannhet og dårlig hukommelse_; om ur-verdalingens evne til å motsette seg
+frivillig utvandring fra et levende dalisliv, til urbanisert lagring i
+betong-getto bak avstengt glassveranda.
