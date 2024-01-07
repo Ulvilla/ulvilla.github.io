@@ -13,15 +13,7 @@ content_title: En brennaktuell bitende satire av Arnulf Haga
 ticket_link: https://ebillett.no/events?search=%C3%A6+vil+itj+fl%C3%B8tt+p%C3%A5+%C3%B8ra&fbclid=IwAR2wx_VBNjtEpZkqW5yHrbLtPBNobaAs5-htqvdkukx5Piik5wXdGuQIrPE
 ticket_prices: 375kr / 300kr
 dates:
-  - 13.3.2024
-  - 14.3.2024
-  - 15.3.2024
-  - 16.3.2024
-  - 17.3.2024
-  - 20.3.2024
-  - 21.3.2024
-  - 22.3.2024
-  - 23.3.2024
+  - 6.9.2024
 actors:
 band:
 director:
